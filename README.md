@@ -1,12 +1,16 @@
 docker ps
+
 minikube start --driver=docker
+
 kubectl get ns
+
 kubectl get nodes
+
 kubectl create namespace argocd
+
 kubectl apply \
     --namespace argocd \
     --filename https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
-
 
 watch kubectl get all --namespace argocd
 
