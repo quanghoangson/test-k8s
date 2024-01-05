@@ -44,3 +44,5 @@ kubectl apply --filename argocd-app.yaml
 kubectl port-forward \
     --namespace my-app \
     svc/my-app-svc 5000:5000
+
+    https://drive.google.com/file/d/1Qd4fefUXIKSPhHZ3Ar4UaaNG8yqqiKVX/view?usp=sharing
