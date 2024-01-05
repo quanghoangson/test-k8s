@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: test-k8s
-  namespace: testK8S
+  namespace: testk8s
 spec:
   project: default
 
